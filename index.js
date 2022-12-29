@@ -10,5 +10,5 @@ app.get('/', (req, res)=> {
 
 app.listen(port, (err) => {
     if(err) throw err;
-    console.log("Some Error Occoured");
+    console.log("Server started at PORT", port);
 })
